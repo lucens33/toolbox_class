@@ -11,9 +11,9 @@
 ~MSle0~/tool
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :!pwd
-:q
 
 # Search String History (newest to oldest):
 ?/tool
@@ -37,17 +37,19 @@
 	@@ -0,0 +1,3 @@
 
 # File marks:
-'0  1  0  ~\.gitconfig
-'1  3  0  ~\.gitconfig
-'2  2  22  ~\README
-'3  1  66  ~\xxx
-'4  73  19  c:\Users\test\.profile
-'5  75  0  c:\Users\test\.profile
+'0  2  22  ~\README
+'1  1  6  ~\ccc
+'2  1  0  ~\.gitconfig
+'3  3  0  ~\.gitconfig
+'4  1  66  ~\xxx
+'5  73  19  c:\Users\test\.profile
+'6  75  0  c:\Users\test\.profile
 
 # Jumplist (newest first):
+-'  2  22  ~\README
+-'  1  6  ~\ccc
 -'  1  0  ~\.gitconfig
 -'  3  0  ~\.gitconfig
--'  2  22  ~\README
 -'  1  0  ~\README
 -'  1  66  ~\xxx
 -'  73  19  c:\Users\test\.profile
@@ -63,8 +65,6 @@
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
 -'  1  0  c:\Users\test\.profile
--'  2  22  ~\README
--'  1  0  ~\README
 -'  1  66  ~\xxx
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
@@ -80,8 +80,6 @@
 -'  75  0  c:\Users\test\.profile
 -'  1  0  c:\Users\test\.profile
 -'  4  0  ~\.gitconfig
--'  2  22  ~\README
--'  1  0  ~\README
 -'  1  66  ~\xxx
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
@@ -96,8 +94,6 @@
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
 -'  1  0  c:\Users\test\.profile
--'  2  22  ~\README
--'  1  0  ~\README
 -'  1  66  ~\xxx
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
@@ -112,8 +108,46 @@
 -'  73  19  c:\Users\test\.profile
 -'  75  0  c:\Users\test\.profile
 -'  1  0  c:\Users\test\.profile
+-'  1  66  ~\xxx
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  1  66  ~\xxx
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  1  66  ~\xxx
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  c:\Users\test\.profile
+-'  1  66  ~\xxx
+-'  73  19  c:\Users\test\.profile
+-'  75  0  c:\Users\test\.profile
+-'  1  0  ~\.gitconfig
 
 # History of marks within files (newest to oldest):
+
+> ~\README
+	"	2	22
+	^	2	23
+	.	2	22
+	+	1	23
+	+	2	22
+
+> ~\ccc
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
 
 > ~\.gitconfig
 	"	1	0
@@ -122,13 +156,6 @@
 	+	3	30
 	+	4	0
 	+	1	0
-
-> ~\README
-	"	2	22
-	^	2	23
-	.	2	22
-	+	1	23
-	+	2	22
 
 > ~\xxx
 	"	1	66
